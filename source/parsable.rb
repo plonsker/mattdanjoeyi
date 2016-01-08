@@ -3,7 +3,7 @@ require_relative 'card'
 
 module Parsable
 
-  def txt_parser(input_file) #should parse the file into a bunch of card objects
+  def txt_parser(input_file)
     definitions = []
     terms = []
     File.open(input_file, "r") do |file|
@@ -17,5 +17,6 @@ module Parsable
     end
     words_array = terms.zip(definitions)
   end
+
 end
 

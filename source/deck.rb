@@ -1,8 +1,6 @@
-
 require 'pry'
 require_relative 'parsable'
 require_relative 'card'
-
 
 class Deck
   include Parsable
@@ -19,4 +17,5 @@ class Deck
       Card.new({:word => word_sub_array[0], :definition => word_sub_array[1], :card_id => index +1 })
     end
   end
+
 end
