@@ -9,6 +9,7 @@ require_relative 'card'
 
 class Controller
   include Parsable
+  attr_reader :mydeck
 
   def initialize
    @my_deck = Deck.new
