@@ -3,5 +3,9 @@ class View
 
   end
 
+  def display(output)
+    puts output
+  end
+
 
 end

@@ -1,7 +1,8 @@
 require 'pry'
 
 module Parsable
-  def txt_parser
+
+  def txt_parser #should parse the file into a bunch of card objects
 
   end
 
