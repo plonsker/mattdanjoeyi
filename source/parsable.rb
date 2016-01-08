@@ -16,15 +16,6 @@ module Parsable
       end
     end
     words_array = terms.zip(definitions)
-    # words_array.map.with_index do |word_sub_array, index|
-    #   Card.new({:word => word_sub_array[0], :definition => word_sub_array[1], :card_id => index })
-      # p word_sub_array
-      # p index
-    # end
-    # puts words_array
-    # words_array.each do |word|
-    #   puts word
-    # end
   end
 
 # p txt_parser("flashcard_samples.txt")

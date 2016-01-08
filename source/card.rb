@@ -8,7 +8,7 @@ class Card
     @card_id = args.fetch(:card_id, 0)
   end
 
-  def was_that_correct?(guess)
+  def correct?(guess)
     #if the guessed word that you send me is == to the @word for this card, return true!
     @word == guess
   end
