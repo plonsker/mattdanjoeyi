@@ -1,7 +1,4 @@
 class View
-  def initialize(args)
-
-  end
 
   def display(output)
     puts output
@@ -12,7 +9,7 @@ class View
   end
 
   def start_studying
-    display("Are You Ready For Some Flashcaaaaaaaaarrrrrrrrds!?!?!!?!\n Enter the appropriate ruby keyword that matches the definition you are given.\n Ready? \n aaaaaaand GO!")
+    display("Are You Ready For Some Flaaaaaaaaaaaaaashcaaaaaaaaarrrrrrrrds!?!?!!?!\n Enter the appropriate ruby keyword that matches the definition you are given.\n Ready? \n aaaaaaand GO!")
   end
 
 

@@ -17,25 +17,5 @@ module Parsable
     end
     words_array = terms.zip(definitions)
   end
-
-# p txt_parser("flashcard_samples.txt")
-# p terms.zip(definitions)
-
 end
 
-# flashcard_file = File.open("flashcard_samples.txt")
-
-# parsed_array_of_cards = flashcard_file.read.split("\n")
-
-# puts parsed_array_of_cards
-
-# deck << flashcard.new ({args go here yo!})
-
-
-# ____________________________?
-
-# FILE.foreach(filename) do |line|
-#   content.push(line)
-# end
-
-# each_char

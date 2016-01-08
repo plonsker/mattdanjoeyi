@@ -19,10 +19,10 @@ class Deck
       Card.new({:word => word_sub_array[0], :definition => word_sub_array[1], :card_id => index +1 })
     end
   end
-
-  def
 end
 
-my_deck = Deck.new
 
-p my_deck.cards
+
+# my_deck = Deck.new
+
+# p my_deck.cards
