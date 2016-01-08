@@ -4,9 +4,6 @@ require_relative 'view'
 require_relative 'deck'
 require_relative 'card'
 
-
-
-
 class Controller
   include Parsable
   attr_reader :mydeck
@@ -32,4 +29,5 @@ class Controller
     end
     @my_view.display("Great Job. Now go learn some more stuff\n ")
   end
+
 end

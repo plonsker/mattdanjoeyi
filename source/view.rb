@@ -12,5 +12,4 @@ class View
     display("Are You Ready For Some Flaaaaaaaaaaaaaashcaaaaaaaaarrrrrrrrds!?!?!!?!\n Enter the appropriate ruby keyword that matches the definition you are given.\n Ready? \n aaaaaaand GO!")
   end
 
-
 end

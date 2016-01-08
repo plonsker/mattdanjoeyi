@@ -9,14 +9,11 @@ class Card
   end
 
   def correct?(guess)
-    #if the guessed word that you send me is == to the @word for this card, return true!
     @word == guess
   end
 
   def to_s
     "Definition:\n" + @definition
   end
-
-
 
 end
