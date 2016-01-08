@@ -20,9 +20,3 @@ class Deck
     end
   end
 end
-
-
-
-# my_deck = Deck.new
-
-# p my_deck.cards

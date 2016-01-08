@@ -20,18 +20,3 @@ class Card
 
 
 end
-
-# my_card = Card.new
-
-# --> Hey card!
-# give me your definition!
-#     my_card.definition --> with the attr_reader now we can READ the definition attribute
-
-my_card = Card.new
-
-puts my_card
-p my_card.definition
-p my_card.word
-p my_card.answered
-p my_card.card_id
-p my_card
