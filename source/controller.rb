@@ -1,9 +1,12 @@
 require 'pry'
+require_relative 'parsable'
 
 
 class Controller
+  include Parsable
 
-  def initialize(args)
+  def initialize(file)
+   @my_deck = txt_parser(file)
 
   end
 
